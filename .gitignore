@@ -1,0 +1,30 @@
+# Dependencies & build
+node_modules/
+dist/
+vite-scaffold/dist/
+vite-scaffold/public/*
+!vite-scaffold/public/.gitkeep
+
+# Local / secrets
+.env
+.env.*
+!.env.example
+travel-log-data.json
+admin-site-data.json
+
+# Tooling & test output
+playwright-report/
+test-results/
+.playwright/
+
+# IDE / OS
+.vs/
+.DS_Store
+Thumbs.db
+*.log
+
+# Local HTML backups / encoding artifacts
+Backups/
+*.bak
+indexTEST.html.pre_*
+indexTEST.html.bak*

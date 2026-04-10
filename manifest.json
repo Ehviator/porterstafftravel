@@ -1,0 +1,27 @@
+{
+  "id": "./",
+  "name": "Porter Airlines Staff Travel",
+  "short_name": "Porter Travel",
+  "description": "Crew Access Portal - ZED fares, jumpseat agreements, and staff travel tools",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#152C53",
+  "theme_color": "#152C53",
+  "orientation": "portrait-primary",
+  "categories": ["travel", "business", "productivity"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
